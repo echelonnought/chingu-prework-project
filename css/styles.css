@@ -1,0 +1,341 @@
+
+html {
+    scroll-behavior: smooth;
+}  
+body{
+    background-color:white;
+    color:white;
+    line-height: 1.6em;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin:0;
+    width: 100%;
+    
+}
+
+
+#main-header{
+    
+    background-color: rgb(6, 24, 24);
+    color:white;
+}
+
+#navbar {
+    background-color:#ff009d50;
+    color:#228;
+    align-content: center;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+/* .contain-header {
+  width:100%;
+    margin:auto;
+    overflow: hidden;
+    color:black;
+    text-align: center;} */
+
+#navbar ul{
+    list-style: none;
+    margin:0;
+    padding: 0px;   
+ 
+}
+
+#navbar li{
+display: inline-block;
+padding: 0;
+}
+#navbar li a {
+    display: inline-block;
+    text-align: center;
+    line-height: inherit;
+    padding:20px;
+    margin:0;
+}
+
+#navbar li a:hover {
+    background-color: black;
+}
+
+#navbar a{
+    color:yellow;
+    text-decoration: none;
+    font-size:20px;
+    padding-right:15px;
+}
+
+.navbar-menu .navbar-toggler {
+    display: none;
+}
+
+.container {
+    
+    background-color: rgb(90, 164, 238);
+    width:100%;
+    
+    margin-bottom:0px;
+    overflow: hidden;
+    color:black;
+    padding: 0px;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-column-gap: 0;
+    
+      }
+
+.main {
+    text-align: center;
+    
+}
+
+.main > div > h1 {
+    font-size: 70px;
+}
+.bot {
+    font-style:oblique;
+}
+
+#message {
+    font-size: 28px;
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    border-bottom: 20px;
+    border-top: 20px;
+}
+
+#slack {
+font-size: 28px;
+color: white;
+    
+}
+
+
+ .button {
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 34px;
+    padding-bottom: 10px;
+    width: 360px;
+    height: 76px;
+}
+
+ .nested {
+/*     border: #333 solid; 
+     */    text-align: center;
+     margin-top: 3px;
+     vertical-align: middle;
+}
+ 
+.img-size {
+    width: 80px;
+    height: 60px;
+    float: left 50%;
+}
+
+#btn {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: relative;
+    float: right;
+    font-size: 30px;
+    
+}
+
+.ticky {
+    width: 330px;
+    height: inherit;
+    border-radius: 50%;
+}
+
+
+
+.header-1 {
+    margin-top: 40px;
+    color: black;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.about-ticky {
+padding-top: 20px;
+}
+
+.container-2 {
+    color:black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 4em;
+    padding: 1em;
+
+}
+
+aside {
+    margin-top: 20px;
+}
+
+.para-2 {
+    color:black;
+    display: grid;
+    margin-top: 0;
+    padding: 1em;
+    padding-top: none;
+}
+
+.para-2 div{
+    color: black;
+    font-style: italic;
+}
+
+.feature-works {
+        background-color: rgb(141, 219, 167);
+        padding-top: 20px;
+}
+
+.container-3 {
+    width:auto;
+    margin-bottom:0px;
+    overflow: hidden;
+    color:black;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-column-gap: 0;
+    padding-left: 2em;
+    padding-bottom: 40px;
+    margin-right: 10px;
+}
+
+
+.header-2 {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.configs {
+        background-color: darkslateblue;
+        border-radius: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        align-content: center;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 2500ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+#img {
+    padding-top: 20px;
+    padding-left:35px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 0;
+    
+    
+}
+.fig {
+    background-color: white;
+    text-align: center;
+}
+p {
+    color: none;
+}
+
+
+mark {
+    font-family: monospace; color: red; 
+    background-color: lightgray
+}
+.start-using {
+    padding-top: 20px;
+}
+.container-4 {
+
+    text-align: center;
+    color: black;
+}
+
+.header-3 {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.slack-message {
+    margin-top: 40px;
+}
+
+
+div > p {
+    margin-top: 30px;
+}
+
+#main-footer{
+    background: #8a2be2;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin-top:40px;
+    
+}
+
+@media (min-width:416px) {
+    #img {
+        margin-left: 180px;
+    }
+}
+
+@media (min-width: 833px) {
+    .main {
+    padding: 0;
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-column-gap: 0;
+    margin-top: 20px;    
+    margin-bottom: 40px;
+      }
+    .ticky{
+     width: 390px;
+    }
+    .container-2 {
+    color:black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4em;
+    padding: 2em;
+        
+
+}
+    aside {
+        margin-top: 0;
+    }
+    .para-2 {
+        padding: 2em;
+    }
+
+    
+    .container-3 {
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    padding: 1em;
+    margin-left: 16px;
+    }
+    
+     #img {
+        margin-left: 10px;
+    }
+   
+}
+
+
+
