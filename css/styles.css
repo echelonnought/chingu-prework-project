@@ -80,14 +80,19 @@ padding: 0;
     color:black;
     padding: 0px;
     display: grid;
-    grid-template-columns:1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-column-gap: 0;
     
       }
 
+
 .main {
     text-align: center;
     
+}
+
+.main div, aside > figure > img {
+    max-width: 100%;
 }
 
 .main > div > h1 {
@@ -201,7 +206,7 @@ aside {
     overflow: hidden;
     color:black;
     display: grid;
-    grid-template-columns:1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-column-gap: 0;
     padding-left: 2em;
     padding-bottom: 40px;
@@ -221,30 +226,25 @@ aside {
         margin-top: 10px;
         margin-bottom: 10px;
         margin-left: 20px;
-        align-content: center;
+        padding-top: 20px;
 }
 
-.fade-in {
-    opacity: 0;
-    transition: opacity 2500ms ease-in;
-}
-
-.fade-in.appear {
-    opacity: 1;
-}
 
 #img {
+    
+/*    max-width: 100%;   */
+    padding-left: 15px;
     padding-top: 20px;
-    padding-left:35px;
     padding-right: 20px;
-    padding-bottom: 20px;
-    border-radius: 0;
-    
-    
+    padding-bottom: 30px;
+    width: 90%;  
+/*    border-radius: 50%;*/
 }
 .fig {
     background-color: white;
     text-align: center;
+    width:
+    
 }
 p {
     color: none;
@@ -288,12 +288,26 @@ div > p {
 }
 
 @media (min-width:416px) {
-    #img {
-        margin-left: 180px;
-    }
+   .container {
+    
+    background-color: rgb(90, 164, 238);
+    width:100%;
+    
+    margin-bottom:0px;
+    overflow: hidden;
+    color:black;
+    padding: 0px;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-column-gap: 0;
+    
+      }
+  
+    
+    
 }
 
-@media (min-width: 833px) {
+@media (min-width: 659px) {
     .main {
     padding: 0;
     display: grid;
@@ -331,8 +345,10 @@ div > p {
     margin-left: 16px;
     }
     
+    
      #img {
-        margin-left: 10px;
+         
+        margin-left: 0;
     }
    
 }
