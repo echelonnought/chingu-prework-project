@@ -66,8 +66,85 @@ padding: 0;
     padding-right:15px;
 }
 
-.navbar-menu .navbar-toggler {
-    display: none;
+
+
+.btn-visibilty {
+visibility: hidden;
+}
+
+#btn-return-top {
+    position: fixed;
+    bottom: 140px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid;
+    background-color: white;
+    color:#333;
+    outline: none;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+    padding-left: 3px;
+}
+
+#btn-return-top:hover, #btn-return-top:focus {
+    background-color: aliceblue;
+    color: aliceblue;
+}
+
+.btnEntrance {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: btnEntrance;
+}
+
+/* @keyframes btnEntrance {
+    from {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3)
+    }
+    to {
+        opacity: 1;
+    }
+} */
+
+@keyframes btnEntrance {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0)
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.btnExit {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: btnExit;
+}
+/* 
+@keyframes btnExit {
+    from {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3)
+    }
+} */
+
+@keyframes btnExit {
+    from {
+        opacity: 1;
+        
+    }
+
+    to {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0)
+
+    }
 }
 
 .container {
@@ -123,7 +200,7 @@ color: white;
     border-radius: 8px;
     margin-top: 34px;
     padding-bottom: 10px;
-    width: 360px;
+    width: 330px;
     height: 76px;
 }
 
@@ -304,7 +381,18 @@ div > p {
     
       }
   
-    
+   #btn-return-top {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        right: 12px;
+        bottom: 120px;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in-out;
+        transition-property: background-color, color;
+        padding-left: 3px;
+        
+    } 
     
 }
 
