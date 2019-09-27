@@ -1,6 +1,6 @@
-##Ticky Bot Clone Landing Page##
+# Ticky Bot Clone Landing Page #
 
-=========================
+
 
 **Overview**
 
