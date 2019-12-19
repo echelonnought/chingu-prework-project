@@ -6,7 +6,7 @@
 
 This page was created for the Chingu Voyage 12 Pre-work session
 
-## LIVE LINK :   [Check It Out!](https://practical-shirley-5c3fd5.netlify.com)
+## LIVE LINK :   [Check It Out!](https://tickybot-app.netlify.com)
 
 ## Features ##
 
